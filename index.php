@@ -3,13 +3,14 @@ DER JAMES </br>
 <a href="http://192.168.0.37/Asir2_Kimberly/">KIM PUTA AMA</a> </br>
 
 <?php
-	if(isset($_GET['email']))
+	if(isset($_GET['email'])){
 		print_r($_GET);
 	
 	#SaveSubs
 	$f=fopen('suscriptores.txt','a');
 	fwrite($f,$_GET['email']."\r\n");
-	fclose($f)
+	fclose($f);
+	}
 ?>
 
 <form>
