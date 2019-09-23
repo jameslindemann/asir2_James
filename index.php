@@ -13,7 +13,7 @@ DER JAMES </br>
 ?>
 
 <form>
-	<input name="email"/>
+	<input name="email" type="email"/>
 	<button>SUBSCRIBE</button>
 </form>
 
