@@ -1,9 +1,11 @@
-DER JAMES </br>
-<a href="http://192.168.0.34/asir2.php">KEVINASO PEPINASO</a> </br>
-<a href="http://192.168.0.37/Asir2.php">KIM PUTA AMA</a>
-
 <?php
-$f=fopen('visitas.txt','a');
-fwrite($f,$_SERVER['REMOTE_ADDR']."\r\n");
-fclose($f)
+$dns=[
+	'192.168.0.67'=>'  Jose Luis',
+	'192.168.0.99'=>'  Kim',
+	'192.168.0.70'=>'  Kevin',
+
+	];
+$f=fopen('visitastimestamp.txt','a');
+fwrite($f, date('Y-m-d H:i:s').($dns[$_SERVER['REMOTE_ADDR']]."\r\n"));
+fclose($f);
 ?>
