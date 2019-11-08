@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8"/>
 <title>PAGINA HTML</title>
 </head>
 
@@ -11,51 +11,50 @@
 
 <h1>PROVINCIAS BAÑADAS POR EL CANTABRICO</h1>
 
-<img src="mapa.jpg" alt="Mapa Politico de España" style="width:400px;height:300px"/>
+<img src="mapa.jpg" alt="Mapa Politico de España" width="400" height="300"/>
 
 </center>
 
-<h2 style="color:brown; font-size:22px";><b><u>
+<h2><font size="6", color="brown"><b><u>
 Estas son todas las provincias que son bañadas por el Mar Cantabrico:
+</font>
 </b></u></h2>
 
 <form>
-	<input>
-	<input type="submit">
+	<input/>
+	<input type="submit"/>
 </form>
-
-<table style="font-size:20px;"border="1">
+<table border="1">
 <tr>
-<th> Comunidades </th>
-<th> Provincias </th>
+<th><font size="4"> Comunidades </font></th>
+<th><font size="4"> Provincias </font></th>
 </tr>
-
-<tr style="color:blue">
-<td> Galicia </td>
-<td> A Coruña </td>
+<tr>
+<td><font color="blue", size="4"> Galicia </font></td>
+<td><font color="blue", size="4"> A Coruña </font></td>
 </tr>
-
-<tr style="color:blue">
-<td> Galicia </td>
-<td> Lugo </td>
+<tr>
+<td><font color="blue", size="4"> Galicia </font></td>
+<td><font color="blue", size="4"> Lugo </font></td>
 </tr>
-
-<tr style="color:F4BD02">
-<td> Asturias </td>
-<td> Asturias </td>
+<tr>
+<td><font color="F4BD02", size="4"> Asturias </font></td>
+<td><font color="F4BD02", size="4"> Asturias </font></td>
 </tr>
-
-<tr style="color:red">
-<td> Cantabria </td>
-<td> Cantabria </td>
+<tr>
+<td><font color="red", size="4"> Cantabria </font></td>
+<td><font color="red", size="4"> Cantabria </font></td>
+</font>
 </tr>
-
 </table>
-
-<p style="color:E502F4; font-size:20px";><b>
+<p><b><font color="E502F4", size="5">
 Como podemos ver las provincias que son bañadas por el Cantabrico son Lugo, A Coruña y Asturias y Cantabria (estas dos ultimas son uniprovinciales)
+</font>
 </b></p>
 
+<h3>Modulos de ASIR</h3>
+<p> <font color="grey"> ASIR1: PAR, ISO, GBD, FOL, LMS y FH </font></p>
+</br>
+<p><font color="green"> ASIR2: SRI, ASGBD, ASO, EIE, IAW, SAD </font></p>
 </body>
-
 </html>
