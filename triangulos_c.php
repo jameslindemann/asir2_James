@@ -1,4 +1,5 @@
 <form>
+
 	Ángulo 1    
 	<input name="angulo1"/>
 	</br>
@@ -8,68 +9,64 @@
 	Ángulo 3  
 	<input name="angulo3"/>
 	</br>
+	</br>
 	<button>Comprobar</button>
+	<button href="http://localhost/asir2_james/triangulos_c.php">Poner todos los valores a 0</button>
 	</br>
-	</br>
-</form>
-
-<form>
-	<button href="http://localhost/asir2_alvaro/triangulos_c.php">Poner a 0 los valores.</button>
-	</br>
-	</br>
+	
 </form>
 
 <?php
-function triangulo($a,$b,$c,$A,$B,$C){
-	
-	$a=$A;
-	$b=$B;
-	$c=$C;
-	
-	echo lados($a,$b,$c);
-	echo angulos($A,$B,$C);
-	
+function triangulo($e,$i,$es,$R,$O,$A){
+
+$e=$R;
+$i=$O;
+$es=$A;
+
+	echo lados($e,$i,$es);
+	echo angulos($R,$O,$A);	
 }
-function lados($a,$b,$c){
+function lados($e,$i,$es){
 	
-	if(is_numeric($a) && is_numeric($b) && is_numeric($c) && ($a)>0 && ($b)>0 && ($c)>0){
-			if($a==$b && $a==$c){
-				$r='Triángulo equilátero ';
-			}elseif($a==$b || $a==$c || $b==$c){
-				$r='Triángulo isósceles ';
-			}else
-				$r='Triángulo escaleno ';
-			return $r;
-				
+	if(is_numeric($e) && is_numeric($i) && is_numeric($es) && ($e)>0 && ($i)>0 && ($es)>0){
+	if($e==$i && $e==$es){
+		$r='Triángulo equilátero ';
+	}elseif($e==$i || $e==$es || $i==$es){
+		$r='Triángulo isósceles ';
+	}else
+		$r='Triángulo escaleno ';
+	return $r;			
 	}
 }
-function angulos($A,$B,$C){
-	if(is_numeric($A) && is_numeric($B) && is_numeric($C) && ($A)>0 && ($B)>0 && ($C)){
-		if((($A)+($B)+($C))==180){
-			if($A==90 || $B==90 || $C==90){
-				$r='y rectángulo.';
-			}elseif($A>90 || $B>90 || $C>90){
-				$r='y obtusángulo.';
-			}else
-				$r='y acutángulo.';
-			return $r;
+function angulos($R,$O,$A){
+	
+		if(is_numeric($R) && is_numeric($O) && is_numeric($A) && ($R)>0 && ($O)>0 && ($A)){
+		if((($R)+($O)+($A))==180){
+		if($R==90 || $O==90 || $A==90){
+			$r='y rectángulo.';
+		}elseif($R>90 || $O>90 || $A>90){
+			$r='y obtusángulo.';
+		}else
+			$r='y acutángulo.';
+		return $r;
 			
 		}else
-			echo 'Los ángulos de un triángulo han de sumar 180º, revisa que has metido.';
-	}else
-		echo 'Introduce valores numéricos, por favor.';
-	
+		echo 'Los ángulos deben de sumar 180º, revisa los datos introducidos.';
+		}else
+		echo 'Introduce algun valor.';
 }
+
 if(isset($_GET['angulo1'], $_GET['angulo2'], $_GET['angulo3'])){
 	
-	echo triangulo(1,1,1,($_GET['angulo1']),($_GET['angulo2']),($_GET['angulo3']));
+echo triangulo(1,1,1,($_GET['angulo1']),($_GET['angulo2']),($_GET['angulo3']));
 	
 }else
+	
 	echo 'Introduce la medida de los angulos del triángulo.';
-echo '<br><br>Vectores de test:<br><br>';
-echo triangulo(1,sqrt(2),1,45,90,45).' ¿rectángulo-isósceles?<br/>';
-echo triangulo(1,sqrt(2),1,45,45,90).' ¿rectángulo-isósceles?<br/>';
-echo triangulo(1,sqrt(2),1,90,45,45).' ¿rectángulo-isósceles?<br/>';
-echo triangulo(1,1,1,60,60,60).' ¿acutángulo-equilátero?<br/>';
-echo triangulo(1,1,1,100,40,40).' ¿obtusángulo-isósceles?<br/>';
+	echo '<br><br>Vectores de test:<br><br>';
+	echo triangulo(1,sqrt(2),1,45,90,45).' ¿isósceles-rectángulo?<br/>';
+	echo triangulo(1,sqrt(2),1,45,45,90).' ¿isósceles-rectángulo?<br/>';
+	echo triangulo(1,sqrt(2),1,90,45,45).' ¿isósceles-rectángulo?<br/>';
+	echo triangulo(1,1,1,60,60,60).' ¿equilátero-acutángulo?<br/>';
+	echo triangulo(1,1,1,100,40,40).' ¿isósceles-obtusángulo?<br/>';
 ?>
