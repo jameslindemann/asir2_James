@@ -5,7 +5,7 @@
 <title>PAGINA HTML</title>
 </head>
 
-<body>
+<body bgcolor="CFD2CF">
 
 <center>
 
@@ -24,37 +24,42 @@ Estas son todas las provincias que son bañadas por el Mar Cantabrico:
 	<input/>
 	<input type="submit"/>
 </form>
-<table border="1">
-<tr>
+
+<table border="1" width="250" align="center">
+
+<tr align="center">
 <th><font size="4"> Comunidades </font></th>
 <th><font size="4"> Provincias </font></th>
 </tr>
-<tr>
+
+<tr align="center">
 <td><font color="blue", size="4"> Galicia </font></td>
 <td><font color="blue", size="4"> A Coruña </font></td>
 </tr>
-<tr>
+
+<tr align="center">
 <td><font color="blue", size="4"> Galicia </font></td>
 <td><font color="blue", size="4"> Lugo </font></td>
 </tr>
-<tr>
+
+<tr align="center">
 <td><font color="F4BD02", size="4"> Asturias </font></td>
 <td><font color="F4BD02", size="4"> Asturias </font></td>
 </tr>
-<tr>
+
+<tr align="center">
 <td><font color="red", size="4"> Cantabria </font></td>
 <td><font color="red", size="4"> Cantabria </font></td>
-</font>
 </tr>
+
 </table>
+
 <p><b><font color="E502F4", size="5">
 Como podemos ver las provincias que son bañadas por el Cantabrico son Lugo, A Coruña y Asturias y Cantabria (estas dos ultimas son uniprovinciales)
 </font>
 </b></p>
 
-<h3>Modulos de ASIR</h3>
-<p> <font color="grey"> ASIR1: PAR, ISO, GBD, FOL, LMS y FH </font></p>
-</br>
-<p><font color="green"> ASIR2: SRI, ASGBD, ASO, EIE, IAW, SAD </font></p>
+<h3>Las comunidades que son bañadas por el Cantabrico</h3>
+<p> <font color="green"> Galicia, Asturias y Cantabria</font></p>
 </body>
 </html>
