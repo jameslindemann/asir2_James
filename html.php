@@ -12,7 +12,7 @@
 <h1>PROVINCIAS BAÑADAS POR EL CANTABRICO</h1>
 
 <img src="mapa.jpg" alt="Mapa Politico de España" width="400" height="300"/>
-
+</table>
 </center>
 
 <h2><font size="6", color="brown"><b><u>
@@ -59,7 +59,9 @@ Como podemos ver las provincias que son bañadas por el Cantabrico son Lugo, A C
 </font>
 </b></p>
 
-<h3>Las comunidades que son bañadas por el Cantabrico</h3>
-<p> <font color="green"> Galicia, Asturias y Cantabria</font></p>
+<h1>La Tierra Media</h1>
+<h2>Señores Oscuros</h2>
+<h3>Morgoth & Sauron </h3>
+
 </body>
 </html>
