@@ -5,7 +5,7 @@
 <title>PAGINA HTML</title>
 </head>
 
-<body bgcolor="CFD2CF">
+<body bgcolor="CFD2CF" marginwidth="25">
 
 <center>
 
