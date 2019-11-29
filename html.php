@@ -15,15 +15,15 @@
 </table>
 </center>
 
-<h2><font size="6", color="brown"><b><u>
-Estas son todas las provincias que son bañadas por el Mar Cantabrico:
-</font>
-</b></u></h2>
-
 <form>
 	<input/>
 	<input type="submit"/>
 </form>
+
+<h2><font size="6", color="brown"><b><u>
+Estas son todas las provincias que son bañadas por el Mar Cantabrico:
+</font>
+</b></u></h2>
 
 <table border="1" width="250" align="center">
 
