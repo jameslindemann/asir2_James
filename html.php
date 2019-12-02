@@ -62,6 +62,15 @@ Como podemos ver las provincias que son bañadas por el Cantabrico son Lugo, A C
 <h1>La Tierra Media</h1>
 <h2>Señores Oscuros</h2>
 <h3>Morgoth & Sauron </h3>
-
+<h2>Elfos Noldor</h2>
+<h3>Galadriel & Elrond</h3>
+<h2>Hobbits</h2>
+<h3>Bilbo & Frodo Bolson</h3>
+<h2>Dunedain</h2>
+<h3>Isildur & Elendil</h3>
+<h2>Istari</h2>
+<h3>Gandalf & Saruman</h3>
+<h2>Uruk-Hai</h2>
+<h3>Lurtz & Ugluk</h3>
 </body>
 </html>
