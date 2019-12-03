@@ -1,30 +1,31 @@
 <form>
-	Lado 1    
+
+Lado 1    
 	<input name="lado1"/>
-	</br>
-	Lado 2    
+</br>
+Lado 2    
 	<input name="lado2"/>
-	</br>
-	Lado 3  
+</br>
+Lado 3  
 	<input name="lado3"/>
-	</br>
-	</br>
-	Ángulo 1    
+</br>
+</br>
+
+Ángulo 1    
 	<input name="angulo1"/>
-	</br>
-	Ángulo 2    
+</br>
+Ángulo 2    
 	<input name="angulo2"/>
-	</br>
-	Ángulo 3  
+</br>
+Ángulo 3  
 	<input name="angulo3"/>
-	</br>
-	</br>
+</br>
+</br>
 	<button>Comprobar</button>
-	</br>
-	</br>
+</br>
 	<button href="http://localhost/asir2_james/triangulos_c.php">Retornar todos los valores a 0</button>
-	</br>
-	</br>
+</br>
+	
 </form>
 
 <?php
